@@ -88,7 +88,7 @@ get_latest_buildx_version() {
   if ! [[ -x ./git-latest-version.sh ]]
   then
     # Download
-    curl -O -L https://raw.githubusercontent.com/pschmitt/ci-setup-docker-buildx/master/git-latest-version.sh
+    curl -O -L https://raw.githubusercontent.com/zeduperes/ci-setup-docker-buildx/master/git-latest-version.sh
     chmod +x ./git-latest-version.sh
   fi
   ./git-latest-version.sh docker/buildx
